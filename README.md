@@ -57,4 +57,4 @@ from the corresponding encoder levels (via ResPath)
 are integrated through concatenation. MultiResBlocks in the decoder ensure effective integration of
 features for reconstructing the segmentation mask.
 The model was compiled using Adam optimizer and
-SparseCategoricalCrossentropy loss which is computed with this formula:
+SparseCategoricalCrossentropy loss.
